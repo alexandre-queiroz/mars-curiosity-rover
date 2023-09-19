@@ -151,5 +151,13 @@ Curiosity terminou exploração. Liberando espaço de armazenamento.
 
 Exploração nº: 3 finalizada
 Quantidade de rochas do tipo 1: 13
-Quantidade de rochas do tipo 2
+Quantidade de rochas do tipo 2: 15
+Quantidade de rochas do tipo 3: 10
+
+Quantidade de lixo Metálico: 16
+Quantidade de lixo Não Metálico: 14
+
+Peso: 69.73
+
+Curiosity terminou exploração. Liberando espaço de armazenamento.
  ```
