@@ -1,5 +1,7 @@
 # mars-curiosity-rover
 
+![image](https://github.com/alexandre-queiroz/mars-curiosity-rover/assets/54822170/b279a4ab-06d8-419f-8651-70209905c324)
+
 ## Detalhes da missão
 A missão do robô Rover Curiosity chegou à cratera Gale de
 Marte o 6 de agosto de 2012. Desde essa data, o robô começou
