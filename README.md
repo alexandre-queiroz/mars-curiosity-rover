@@ -1,6 +1,10 @@
-# mars-curiosity-rover
+# Mars Science Laboratory: Mars Curiosity Rover
 
 ![image](https://github.com/alexandre-queiroz/mars-curiosity-rover/assets/54822170/b279a4ab-06d8-419f-8651-70209905c324)
+
+*É importante observar que as funcionalidades descritas neste documento foram criadas apenas para fins acadêmicos e de simulação. Elas não refletem o funcionamento exato do Rover Curiosity da NASA, que é uma missão real em Marte. Para obter informações precisas e atualizadas sobre o Rover Curiosity e suas atividades em Marte, visite o site oficial da NASA em [https://mars.nasa.gov/msl/home](https://mars.nasa.gov/msl/home/).*
+
+**Agradeço por explorar esta simulação do Curiosity e por seu interesse na exploração espacial!**
 
 ## Detalhes da missão
 ## 1. Introdução
