@@ -1,4 +1,4 @@
-# mars-curiosity-rover
+# Mars Science Laboratory: Mars Curiosity Rover
 
 ![image](https://github.com/alexandre-queiroz/mars-curiosity-rover/assets/54822170/b279a4ab-06d8-419f-8651-70209905c324)
 
