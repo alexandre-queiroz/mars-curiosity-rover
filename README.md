@@ -33,18 +33,123 @@ Para simular a exploração do Curiosity em Marte, é necessário construir um s
 
 ## 9. Simulação da Exploração
 Nesta seção, descrevemos como a simulação será realizada, incluindo a criação de listas de rochas e lixo espacial com valores aleatórios.
+ ```
+from random import randint, uniform
 
-## 10. Acompanhamento da Exploração
-Nesta seção, descrevemos como o progresso da exploração será acompanhado por meio de mensagens durante o processo.
+class Rocha:
 
-## 11. Finalização da Exploração
-Nesta seção, detalhamos o que acontecerá quando o Curiosity atingir sua capacidade máxima de armazenamento ou quando não houver mais elementos para coletar.
+    def __init__(self):
+        self.peso = round(uniform(0.5, 14.2), 2)
+        self.diametro = round(uniform(0.3, 0.8), 2)
+        self.tipo = randint(1, 3)
+
+    def __repr__(self):
+        return "Tipo " + str(self.tipo)
+
+class LixoEspacial:
+
+    def __init__(self):
+        self.peso = round(uniform(1.12, 8.55), 2)
+        self.diametro = round(uniform(0.1, 0.4), 2)
+        self.tipo = randint(0, 1)
+
+    def __repr__(self):
+        tipo = "Não metálico"
+        if self.tipo == 1:
+            tipo = "Metálico"
+        return "Tipo " + tipo
+
+class Curiosity:
+
+    def __init__(self):
+        self.deposito_rocha = []
+        self.exploracao_rocha = []
+        self.deposito_lixo = []
+        self.exploracao_lixo = []
+        self.peso = 0
+
+    def iniciar_exploracao(self):
+        x = 0
+        while x < 3:
+            self.deposito_rocha = []
+            self.deposito_lixo = []
+            self.peso = 0
+            for i in range(randint(30, 120)):
+                self.exploracao_rocha.append(Rocha())
+                self.exploracao_lixo.append(LixoEspacial())
+            self.coleta_materiais()
+
+            tipo1 = 0
+            tipo2 = 0
+            tipo3 = 0
+
+            for i in range(len(self.deposito_rocha)):
+                if self.deposito_rocha[i].tipo == 1:
+                    tipo1 += 1
+                elif self.deposito_rocha[i].tipo == 2:
+                    tipo2 += 1
+                else:
+                    tipo3 += 1
+
+            m = 0
+            n = 0
+
+            for i in range(len(self.deposito_lixo)):
+                if self.deposito_lixo[i].tipo == 1:
+                    m += 1
+                else:
+                    n += 1
+
+            print("\nExploração nº: " + str(x + 1) + " finalizada")
+            print("Quantidade de rochas do tipo 1: " + str(tipo1) + "\n" +
+            "Quantidade de rochas do tipo 2: " + str(tipo2) + '\n' +
+            "Quantidade de rochas do tipo 3: " + str(tipo3) + '\n' +
+            "\nQuantidade de lixo Metálico: " + str(m) + '\n' +
+            "Quantidade de lixo Não Metálico: "  + str(n) + '\n' +
+            "\nPeso: " + str(self.peso))
+            print("\nCuriosity terminou exploração. Liberando espaço de armazenamento.")
+            x += 1
+
+ ```
 
 ## 12. Instruções de Uso
 Nesta seção, fornecemos instruções básicas de uso do código e como executar a simulação.
+ ```
+# Exemplo de como usar o código para simular a exploração do Curiosity
+curiosity = Curiosity()
+curiosity.iniciar_exploracao()
+ ```
 
 ## 13. Exemplos de Execução
 Nesta seção, apresentamos exemplos de execução do código para demonstrar como a simulação funciona na prática.
+ ```
+# Exemplo de saída da simulação
 
-## 14. Conclusão
-Encerramos o README com uma conclusão geral e informações adicionais, se necessário.
+Exploração nº: 1 finalizada
+Quantidade de rochas do tipo 1: 14
+Quantidade de rochas do tipo 2: 11
+Quantidade de rochas do tipo 3: 12
+
+Quantidade de lixo Metálico: 17
+Quantidade de lixo Não Metálico: 15
+
+Peso: 69.95
+
+Curiosity terminou exploração. Liberando espaço de armazenamento.
+
+Exploração nº: 2 finalizada
+Quantidade de rochas do tipo 1: 15
+Quantidade de rochas do tipo 2: 13
+Quantidade de rochas do tipo 3: 10
+
+Quantidade de lixo Metálico: 16
+Quantidade de lixo Não Metálico: 14
+
+Peso: 69.63
+
+Curiosity terminou exploração. Liberando espaço de armazenamento.
+
+Exploração nº: 3 finalizada
+Quantidade de rochas do tipo 1: 13
+Quantidade de rochas do tipo 2
+ ```
