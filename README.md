@@ -16,7 +16,7 @@ O Curiosity possui apenas um braço e uma câmera para conduzir a exploração. 
 ## 3. Coleta de Elementos
 O Curiosity coleta elementos que encontra no solo de Marte, avalia-os com sua câmera e os armazena em até dois depósitos diferentes. Se o que ele encontra for uma rocha, ela é registrada em um depósito no formato de lista. Se o que for encontrado forem partes de lixo deixado por explorações passadas, esse lixo é armazenado em outro depósito no formato de pilha.
 
-## 4. Políticas de Armazenamento
+## 4. Políticas de Armazenamento de Rochas
 O Curiosity armazena rochas de até 2,5 kg de peso e até 0,74 m de diâmetro. Rochas maiores do que esse peso e dimensão são descartadas. As rochas podem ser classificadas em tipos 1, 2 e 3. Quando a capacidade de armazenamento do Curiosity fica comprometida, o robô avalia a quantidade de rochas em função de seu tipo e elimina as rochas necessárias até alcançar um equilíbrio entre os tipos de rochas.
 
 ## 5. Políticas de Armazenamento de Lixo Espacial
