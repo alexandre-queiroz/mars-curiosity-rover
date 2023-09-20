@@ -16,7 +16,7 @@ O Curiosity possui apenas um braço e uma câmera para conduzir a exploração. 
 ## 3. Coleta de Elementos
 O Curiosity coleta elementos que encontra no solo de Marte, avalia-os com sua câmera e os armazena em até dois depósitos diferentes. Se o que ele encontra for uma rocha, ela é registrada em um depósito no formato de lista. Se o que for encontrado forem partes de lixo deixado por explorações passadas, esse lixo é armazenado em outro depósito no formato de pilha.
 
-## 4. Políticas de Armazenamento
+## 4. Políticas de Armazenamento de Rochas
 O Curiosity armazena rochas de até 2,5 kg de peso e até 0,74 m de diâmetro. Rochas maiores do que esse peso e dimensão são descartadas. As rochas podem ser classificadas em tipos 1, 2 e 3. Quando a capacidade de armazenamento do Curiosity fica comprometida, o robô avalia a quantidade de rochas em função de seu tipo e elimina as rochas necessárias até alcançar um equilíbrio entre os tipos de rochas.
 
 ## 5. Políticas de Armazenamento de Lixo Espacial
@@ -126,38 +126,39 @@ Nesta seção, apresentamos exemplos de execução do código para demonstrar co
 # Exemplo de saída da simulação
 
 Exploração nº: 1 finalizada
-Quantidade de rochas do tipo 1: 14
-Quantidade de rochas do tipo 2: 11
-Quantidade de rochas do tipo 3: 12
+Quantidade de rochas do tipo 1: 1
+Quantidade de rochas do tipo 2: 2
+Quantidade de rochas do tipo 3: 2
 
-Quantidade de lixo Metálico: 17
-Quantidade de lixo Não Metálico: 15
+Quantidade de lixo Metálico: 4
+Quantidade de lixo Não Metálico: 3
 
-Peso: 69.95
+peso: 21.53
 
 Curiosity terminou exploração. Liberando espaço de armazenamento.
 
 Exploração nº: 2 finalizada
-Quantidade de rochas do tipo 1: 15
-Quantidade de rochas do tipo 2: 13
-Quantidade de rochas do tipo 3: 10
+Quantidade de rochas do tipo 1: 4
+Quantidade de rochas do tipo 2: 4
+Quantidade de rochas do tipo 3: 3
 
-Quantidade de lixo Metálico: 16
-Quantidade de lixo Não Metálico: 14
+Quantidade de lixo Metálico: 7
+Quantidade de lixo Não Metálico: 6
 
-Peso: 69.63
+peso: 39.65
 
 Curiosity terminou exploração. Liberando espaço de armazenamento.
 
 Exploração nº: 3 finalizada
-Quantidade de rochas do tipo 1: 13
-Quantidade de rochas do tipo 2: 15
-Quantidade de rochas do tipo 3: 10
+Quantidade de rochas do tipo 1: 9
+Quantidade de rochas do tipo 2: 6
+Quantidade de rochas do tipo 3: 6
 
-Quantidade de lixo Metálico: 16
-Quantidade de lixo Não Metálico: 14
+Quantidade de lixo Metálico: 10
+Quantidade de lixo Não Metálico: 9
 
-Peso: 69.73
+peso: 61.30
+
 
 Curiosity terminou exploração. Liberando espaço de armazenamento.
  ```
