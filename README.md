@@ -126,30 +126,38 @@ Nesta seção, apresentamos exemplos de execução do código para demonstrar co
 # Exemplo de saída da simulação
 
 Exploração nº: 1 finalizada
-Quantidade de rochas do tipo 1: 14
-Quantidade de rochas do tipo 2: 11
-Quantidade de rochas do tipo 3: 12
+Quantidade de rochas do tipo 1: 1
+Quantidade de rochas do tipo 2: 2
+Quantidade de rochas do tipo 3: 2
 
-Quantidade de lixo Metálico: 17
-Quantidade de lixo Não Metálico: 15
+Quantidade de lixo Metálico: 4
+Quantidade de lixo Não Metálico: 3
 
-Peso: 69.95
+peso: 21.53
 
 Curiosity terminou exploração. Liberando espaço de armazenamento.
 
 Exploração nº: 2 finalizada
-Quantidade de rochas do tipo 1: 15
-Quantidade de rochas do tipo 2: 13
-Quantidade de rochas do tipo 3: 10
+Quantidade de rochas do tipo 1: 4
+Quantidade de rochas do tipo 2: 4
+Quantidade de rochas do tipo 3: 3
 
-Quantidade de lixo Metálico: 16
-Quantidade de lixo Não Metálico: 14
+Quantidade de lixo Metálico: 7
+Quantidade de lixo Não Metálico: 6
 
-Peso: 69.63
+peso: 39.65
 
 Curiosity terminou exploração. Liberando espaço de armazenamento.
 
 Exploração nº: 3 finalizada
-Quantidade de rochas do tipo 1: 13
-Quantidade de rochas do tipo 2
+Quantidade de rochas do tipo 1: 9
+Quantidade de rochas do tipo 2: 6
+Quantidade de rochas do tipo 3: 6
+
+Quantidade de lixo Metálico: 10
+Quantidade de lixo Não Metálico: 9
+
+peso: 61.30
+
+Curiosity terminou exploração. Liberando espaço de armazenamento.
  ```
