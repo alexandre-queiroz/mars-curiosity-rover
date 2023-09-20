@@ -112,7 +112,7 @@ class Curiosity:
 
  ```
 
-## 12. Instruções de Uso
+## 10. Instruções de Uso
 Nesta seção, fornecemos instruções básicas de uso do código e como executar a simulação.
  ```
 # Exemplo de como usar o código para simular a exploração do Curiosity
@@ -120,7 +120,7 @@ curiosity = Curiosity()
 curiosity.iniciar_exploracao()
  ```
 
-## 13. Exemplos de Execução
+## 11. Exemplos de Execução
 Nesta seção, apresentamos exemplos de execução do código para demonstrar como a simulação funciona na prática.
  ```
 # Exemplo de saída da simulação
@@ -158,6 +158,7 @@ Quantidade de lixo Metálico: 10
 Quantidade de lixo Não Metálico: 9
 
 peso: 61.30
+
 
 Curiosity terminou exploração. Liberando espaço de armazenamento.
  ```
