@@ -41,7 +41,7 @@ class Curiosity:
             self.exploracao_lixo = []
             self.peso = 0
 
-            for i in range(random.randint(30, 120)):
+            for i in range(random.randint(90, 400)):
                 self.exploracao_rocha.append(Rocha())
                 self.exploracao_lixo.append(LixoEspacial())
 
