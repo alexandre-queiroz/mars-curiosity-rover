@@ -41,7 +41,7 @@ Caso o limite de peso ou o equilíbrio entre tipos de rochas no depósito seja a
 
 ## 10. Instruções de Uso
 Nesta seção, fornecemos instruções básicas de uso do código e como executar a simulação.
- ```
+ ```python
 # Exemplo de como usar o código para simular a exploração do Curiosity
 curiosity = Curiosity()
 curiosity.iniciar_exploracao()
@@ -49,7 +49,7 @@ curiosity.iniciar_exploracao()
 
 ## 11. Exemplos de Execução
 Nesta seção, apresentamos exemplos de execução do código para demonstrar como a simulação funciona na prática.
- ```
+ ```python
 # Exemplo de saída da simulação
 
 Exploração nº: 1 finalizada
